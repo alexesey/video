@@ -39,11 +39,11 @@ function changeTitle(icon, text){
 
 window.onblur = () =>{
     timer = setTimeout(() =>{
-        changeTitle('../favicon2.ico', 'Вернитесь пожалуйста😭! Мы очень скучаем');
+        changeTitle('/favicon2.ico', 'Вернитесь пожалуйста😭! Мы очень скучаем');
     },3000)
 }
 
 window.onfocus = () =>{
     // clearTimeout(timer);
-    changeTitle('..//favicon.ico', titleOld);
+    changeTitle('//favicon.ico', titleOld);
 }
